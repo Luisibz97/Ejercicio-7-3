@@ -9,6 +9,3 @@ const myBirthdayDay = myBirthday.getDay()
 const myBirthdayMonth = myBirthday.getMonth() + 1
 
 const myBirthdayYear = myBirthday.getFullYear()
-
-
-console.log(myBirthdayYear);
