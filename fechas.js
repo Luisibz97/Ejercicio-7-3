@@ -1,11 +1,23 @@
-const currentDate = new Date()
+const currentDate = new Date();
 
-const myBirthday = new Date(1997, 8, 5)
+const myBirthday = new Date(1997, 8, 5);
 
-const dateComparison = currentDate > myBirthday
+const dateComparison = currentDate > myBirthday;
 
-const myBirthdayDay = myBirthday.getDay()
+const myBirthdayDay = myBirthday.getDay();
 
-const myBirthdayMonth = myBirthday.getMonth() + 1
+const myBirthdayMonth = myBirthday.getMonth() + 1;
 
-const myBirthdayYear = myBirthday.getFullYear()
+const myBirthdayYear = myBirthday.getFullYear();
+
+console.log(currentDate);
+
+console.log(myBirthday);
+
+console.log(dateComparison);
+
+console.log(myBirthdayDay);
+
+console.log(myBirthdayMonth);
+
+console.log(myBirthdayYear);
